@@ -34,8 +34,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install Yarn
         uses: Borales/actions-yarn@v2.3.0
-        with:
-          # Yarn command
+        
             
       - name: Build Folder
         run: yarn build
