@@ -4,14 +4,14 @@ import './index.css';
 function Room() {
     
     let [isLit,setLit] = useState(false);
-    //const brightness = isLit? "lit" : "dark";
+    
     let [isTemp,setTemp] = useState(72);
 
 
 
     return (
         <div className = {`room ${isLit? "lit" : 'dark'}`}> 
-        The room is {isLit ? 'lit' :'dark'}
+        The Room is {isLit ? 'lit' :'dark'}
         
         <br />
         
