@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+//import MediaCard from './MediaCard';
 import App from './App';
+//import Gate from './Gate';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
